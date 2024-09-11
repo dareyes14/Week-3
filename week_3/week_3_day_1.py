@@ -1,19 +1,16 @@
-# # Week3
-# # This week we will work on :
-# # Working With Strings
+# # # Week3
+# # # This week we will work on :
+# # # Working With Strings
 
 
-# # 1.   Working With Numbers
-# # 2.   Getting Input From Users
-
-
-
-
-# # 1.   Building a Basic Calculator
-# # 2.   Mad Libs Game
+# # # 1.   Working With Numbers
+# # # 2.   Getting Input From Users
 
 
 
+
+# # # 1.   Building a Basic Calculator
+# # # 2.   Mad Libs Game
 
 
 
@@ -47,31 +44,34 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-age=18
-# 2. name
-name="Daniel"
-# 3. song
-song="Virdis_Quo"
-# 4. food
-food="tomatoes"
-# 5. number
-number=98
-
-# #now include the variables you just made print in the following...
 
 
-# Once upon a time, there was a [age] old coder named [name].
-print(f"Once upon a time, there was a {age} old coder named" {name})
 
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing.")
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age=18
+# # 2. name
+# name="Daniel"
+# # 3. song
+# song="Virdis_Quo"
+# # 4. food
+# food="tomatoes"
+# # 5. number
+# number=98
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-print(f"Still, {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}'s secret power?")
-##########################################################################################
+# # #now include the variables you just made print in the following...
+
+
+# # Once upon a time, there was a [age] old coder named [name].
+# print(f"Once upon a time, there was a {age} old coder named" {name})
+
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing.")
+
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# print(f"Still, {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}'s secret power?")
+# ##########################################################################################
 
 
 
@@ -172,21 +172,36 @@ print(f"Still, {name} was the best coder on the team and could write {number} li
 
 ##########################################################################################
 # #addition
+print(2+2)
 # #multiplication
-# #division
+print(2*2)
+# #division 
+print(2/2)
 # #modulo
+print(2%2) #remainder of the division
 # #powers
+print(2**2)
 # #get the max and min of a number
+print(max(2,3)) #max number of the two
+print(min(2,3)) #min number of the two
 # #round a number
+print(round(2.5)) #rounds to the nearest whole number
 # # absolute value
+print(abs(-2)) #absolute value of the number 
 # # order of operations
+(2+10*10+3) #order of operations 
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print(floor(3.7)) #floor method
+print(floor(3.3)) #floor method
+print(floor(3.9)) #floor method
 # #ceil method
+print(ceil(3.3)) #ceil method
+print(ceil(3.3)) #ceil method 
 # #sqrt method
-
+print(sqrt(36))
 
 
 
