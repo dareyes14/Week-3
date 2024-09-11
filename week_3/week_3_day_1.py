@@ -171,37 +171,37 @@
 
 
 ##########################################################################################
-# #addition
-print(2+2)
-# #multiplication
-print(2*2)
-# #division 
-print(2/2)
-# #modulo
-print(2%2) #remainder of the division
-# #powers
-print(2**2)
-# #get the max and min of a number
-print(max(2,3)) #max number of the two
-print(min(2,3)) #min number of the two
-# #round a number
-print(round(2.5)) #rounds to the nearest whole number
-# # absolute value
-print(abs(-2)) #absolute value of the number 
-# # order of operations
-(2+10*10+3) #order of operations 
-# #to do more you need to import special math libraries from python
-from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-print(floor(3.7)) #floor method
-print(floor(3.3)) #floor method
-print(floor(3.9)) #floor method
-# #ceil method
-print(ceil(3.3)) #ceil method
-print(ceil(3.3)) #ceil method 
-# #sqrt method
-print(sqrt(36))
+# # #addition
+# print(2+2)
+# # #multiplication
+# print(2*2)
+# # #division 
+# print(2/2)
+# # #modulo
+# print(2%2) #remainder of the division
+# # #powers
+# print(2**2)
+# # #get the max and min of a number
+# print(max(2,3)) #max number of the two
+# print(min(2,3)) #min number of the two
+# # #round a number
+# print(round(2.5)) #rounds to the nearest whole number
+# # # absolute value
+# print(abs(-2)) #absolute value of the number 
+# # # order of operations
+# (2+10*10+3) #order of operations 
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# print(floor(3.7)) #floor method
+# print(floor(3.3)) #floor method
+# print(floor(3.9)) #floor method
+# # #ceil method
+# print(ceil(3.3)) #ceil method
+# print(ceil(3.3)) #ceil method 
+# # #sqrt method
+# print(sqrt(36))
 
 
 
@@ -230,6 +230,15 @@ print(sqrt(36))
 # #round one number
 
 
+name=input("What is your name?")
+number_1=int(input("Pick a number:"))
+number_2=int(input("Pick a another number:"))
+
+print(number_1 + number_2)
+print(number_1 * number_2)
+print(max(number_1,number_2))
+print(number_1 % number_2)
+print(round(number_1))
 
 
 
