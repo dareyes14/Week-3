@@ -4,25 +4,53 @@
 ##########################Reviewing somethings
 
 # indexing strings -- slide 4
-my_text = 'this is a text'
+my_text = 'this is a text string '
 result = my_text  #get the index of the letter a
-print(result)
+print(result[7])
+#find the word text 
+print(result.find('text'))
 
+#print the index of the word text
+print(result[10:14])
+print(result.find('s'))
+print(result[5:7])
+#reverse the string 
+#print(result[::-1])
+#get the last letter of this string 
+print(result[-1])
+print(result.find('string'))
+print(result[15:-1])
+print(result.find('hancock'))
+#hancock does not exist in the string 
+#it prints out -1
+
+# -1 measns the substring is not found 
+#index slicing is when you get a substring from a string you can get a substring by specifying the start and end index of the substring. The start index is inclusive and the end string is exclusive.
 #get the index of the third letter from the end of the text
 
-# find the index of the letter s
+#get the index of the third letter from the end of the text 
+print(result[-3])
+print(result[-5])
+
+#find the index of the letter s
 
 ###slide 5
 # string[start:stop:step]
 #example
-# text = "Hello, World!"
-# print(text[7:12])  # prints "World"
+text = "Hello, World!"
+print(text[7:12])  # prints "World"
 text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 # Get the substring CDE and put in a variable
-
-#get the first letter all the way to the 4th letter
-
+substring = text.find('CDE')
+print(substring)
+substring = text[2:5]
+#get the first letter all the way to the end of the string 
+print(text[0:])
+# this gets the first letter to the last letter 
 #get the first letter to the final letter and skip every 3rd letter
+
+#print start:stop:skip
+print(text[0::3])
 
 # Built-in methods:
 # Python has a variety of built-in methods to work with substrings.
@@ -48,6 +76,18 @@ text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 # "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
 
 ##################################### String Methods#################################
+new_text = "this is a new text text text text text string"
+print(new_text.count("text"))
+#.count() method counts the nu,ber of times a substring appears in a string 
+# a substring appears in a string
+
+#startswith() method checks if a 
+# string starts with a specific substring
+print(new_text.startswith("this"))
+#endswith() method checks if a 
+# string ends with a specific substring 
+print (new_text.endswith("string"))
+
 # String Methods Practice #1
 #slieds 12 -16
 # Print the following text in uppercase, using the specific string method:
