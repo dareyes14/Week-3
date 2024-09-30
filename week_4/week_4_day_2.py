@@ -49,7 +49,7 @@ print(text[0:])
 # this gets the first letter to the last letter 
 #get the first letter to the final letter and skip every 3rd letter
 
-#print start:stop:skip
+#print 
 print(text[0::3])
 
 # Built-in methods:
